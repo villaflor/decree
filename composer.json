@@ -1,0 +1,26 @@
+{
+    "name": "villaflor/decree",
+    "description": "Rule Engine",
+    "keywords": [
+        "villaflor",
+        "decree"
+    ],
+    "type": "library",
+    "homepage": "https://github.com/villaflor/connection",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Villaflor\\Decree\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mark Anthony Villaflor",
+            "email": "villaflor@live.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^7.4|^8.0"
+    }
+}
