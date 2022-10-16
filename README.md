@@ -2,9 +2,10 @@
 Rule Engine
 
 `code`
-$data = [
-'roi' => 1
-];
+
+        $data = [
+            'roi' => 1
+        ];
 
         // action list
         $noAction = new NoAction();
