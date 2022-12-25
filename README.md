@@ -1,8 +1,13 @@
 # Let's Automate
 
+---
+
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/villaflor/decree.svg?style=flat-square)](https://packagist.org/packages/villaflor/decree)
-[![Tests](https://img.shields.io/github/actions/workflow/status/villaflor/decree/run-tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/villaflor/decree/actions/workflows/run-tests.yml)
+[![PHP Version Supported](https://img.shields.io/packagist/php-v/villaflor/decree?style=flat-square)](https://packagist.org/packages/villaflor/decree)
+[![License](https://img.shields.io/github/license/villaflor/decree.svg?style=flat-square)](https://github.com/villaflor/decree/blob/main/LICENSE)
 [![Total Downloads](https://img.shields.io/packagist/dt/villaflor/decree.svg?style=flat-square)](https://packagist.org/packages/villaflor/decree)
+[![Tests](https://github.com/villaflor/decree/actions/workflows/run-tests.yml/badge.svg?branch=main)](https://github.com/villaflor/decree/actions/workflows/run-tests.yml)
+
 
 Chain Command.
 
