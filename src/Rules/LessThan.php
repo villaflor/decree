@@ -5,6 +5,7 @@ namespace Villaflor\Decree\Rules;
 class LessThan implements RuleInterface
 {
     private $value1;
+
     private $value2;
 
     public function __construct($value1, $value2)

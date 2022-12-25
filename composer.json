@@ -5,22 +5,44 @@
         "villaflor",
         "decree"
     ],
-    "type": "library",
-    "homepage": "https://github.com/villaflor/connection",
+    "homepage": "https://github.com/villaflor/decree",
     "license": "MIT",
-    "autoload": {
-        "psr-4": {
-            "Villaflor\\Decree\\": "src/"
-        }
-    },
     "authors": [
         {
             "name": "Mark Anthony Villaflor",
-            "email": "villaflor@live.com"
+            "email": "villaflor@live.com",
+            "role": "Developer"
         }
     ],
-    "minimum-stability": "stable",
     "require": {
-        "php": "^7.4|^8.0"
-    }
+        "php": "^8.0|^8.1"
+    },
+    "require-dev": {
+        "pestphp/pest": "^1.22",
+        "laravel/pint": "^1.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Villaflor\\Decree\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Villaflor\\Decree\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/pest",
+        "test-coverage": "vendor/bin/pest --coverage",
+        "format": "vendor/bin/pint"
+    },
+    "config": {
+        "sort-packages": true,
+        "allow-plugins": {
+            "pestphp/pest-plugin": true,
+            "phpstan/extension-installer": true
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
