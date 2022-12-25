@@ -5,7 +5,9 @@ namespace Villaflor\Decree\Rules;
 class Equals implements RuleInterface
 {
     private $value1;
+
     private $value2;
+
     private bool $strict;
 
     public function __construct($value1, $value2, bool $strict = false)
@@ -26,7 +28,7 @@ class Equals implements RuleInterface
 
     public function log(array $data): array
     {
-        $data['log'][] = "Rule: $this->value1 equals $this->value2" . ($this->strict ? ' (strict)' : '');
+        $data['log'][] = "Rule: $this->value1 equals $this->value2".($this->strict ? ' (strict)' : '');
 
         return $data;
     }
